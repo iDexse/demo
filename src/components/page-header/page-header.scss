@@ -1,0 +1,17 @@
+@use "../../scss/" as *;
+
+.page-header {
+  transition: height 0.3s ease, background-color 0.3s ease;
+  width: 97%;
+  position: fixed;
+  top: 50px;
+  left: 50px;
+  &.shrink {
+    height: 4rem;
+    z-index: 9999;
+    background-color: $main-color;
+  }
+}
+.title-header {
+    display: none;
+}

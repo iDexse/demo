@@ -1,0 +1,8 @@
+@use "../../scss/" as *;
+
+.header {
+    background-color: $main-color;
+    height: 50px;
+    padding: 5px;
+    @include flex(center, unset);
+}

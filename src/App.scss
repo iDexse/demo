@@ -1,0 +1,42 @@
+@use "./scss/" as *;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+
+  @include tablet {
+    font-size: 80%
+  }
+
+  @include mobile {
+    font-size: 60%;
+  }
+}
+
+body {
+  background-color: $body-bg;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+.App {
+  display: grid;
+  grid-template-columns: 50px auto;
+  min-height: 100vh;
+  
+  &_sider {
+    background-color: $side-bg;
+    height: 100%;
+    z-index: 9999;
+  }
+  &_main {
+    margin-top: 200px;
+  }
+}

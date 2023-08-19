@@ -1,0 +1,19 @@
+.big-upload,
+.big-upload .ant-upload,
+.big-upload div.ant-upload-select,
+.big-upload .ant-upload-list-item-container {
+  width: 300px !important;
+  height: 300px !important;
+}
+
+.group-upload .ant-upload-picture-card-wrapper {
+  margin-left: 10px;
+  max-width: 145px !important;
+}
+.group-upload .ant-upload,
+.group-upload div.ant-upload-select,
+.group-upload .ant-upload-list-item-container {
+    width: 145px !important;
+    height: 145px !important;
+}
+
